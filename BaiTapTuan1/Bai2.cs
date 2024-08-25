@@ -1,4 +1,3 @@
-using System.ComponentModel.DataAnnotations;
 namespace BaiTapTuan1;
 class Bai2
 {

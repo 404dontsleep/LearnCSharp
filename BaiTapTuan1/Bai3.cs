@@ -12,7 +12,7 @@ class Bai3
                 n = int.Parse(Console.ReadLine() ?? "-1");
             }
             catch { }
-        } while (n < 0);
+        } while (n <= 0);
         Console.WriteLine("n = {0}", n);
     }
 }

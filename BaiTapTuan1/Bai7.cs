@@ -5,15 +5,14 @@ class Bai7
     {
         Random random = new Random();
         int n = random.Next(1, 100);
-        int maxChance = 7;
-        while (maxChance-- > 0)
+        for (int i = 7; i > 0; i--)
         {
-            Console.WriteLine("Ban con {0} co hoi", maxChance + 1);
+            Console.WriteLine("Ban con {0} co hoi", i);
             int rn = ReadN();
             if (rn == n)
             {
                 Console.WriteLine("ban da doan dung");
-                break;
+                return;
             }
             if (rn > n)
             {
@@ -24,10 +23,7 @@ class Bai7
                 Console.WriteLine("Nho hơn");
             }
         }
-        if (maxChance == -1)
-        {
-            Console.WriteLine("ban da thua");
-        }
+        Console.WriteLine("ban da thua");
     }
     public static int ReadN()
     {
