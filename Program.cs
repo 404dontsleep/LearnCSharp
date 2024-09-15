@@ -8,5 +8,9 @@
 // ------------------------
 // BaiTapTuan2.Bai1.Main();
 // BaiTapTuan2.Bai2.Main();
-BaiTapTuan2.Bai3.Main();
+// BaiTapTuan2.Bai3.Main();
 // BaiTapTuan2.Bai4.Main();
+// ------------------------
+// BaiTapTuan3.Bai1.Main();
+// BaiTapTuan3.Bai2.Main();
+// BaiTapTuan3.Tester.Main();
