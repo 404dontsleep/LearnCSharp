@@ -14,3 +14,5 @@
 // BaiTapTuan3.Bai1.Main();
 // BaiTapTuan3.Bai2.Main();
 // BaiTapTuan3.Tester.Main();
+// BaiTapTuan4.Singleton.Main();
+BaiTapTuan4.Singleton2.Main();
